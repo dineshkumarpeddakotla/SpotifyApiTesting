@@ -62,6 +62,7 @@ public class TestPlaylistAPi {
      */
     @Test
     public void testPOST_02_When_CreateAPlaylist_Should_ReturnStatusCode201() {
+        //declared map object and initialized with hashmap
         Map<String,Object> map = new HashMap<>();
 
         map.put("name", "Latest Track");
@@ -95,6 +96,7 @@ public class TestPlaylistAPi {
     public void testPOST_03_WhenAdded_Items_toAPlaylist_ShouldReturn_StatusCode201() {
         String[] uris = {"spotify:track:6rcTPn1CwOyuskilY12IqL","spotify:track:74IQCxI4nws964fic1Q4pv"};
 
+        //declared map object and initialized with hashmap
         Map<String,Object> map = new HashMap<>();
         map.put("uris", uris);
 
@@ -123,10 +125,10 @@ public class TestPlaylistAPi {
         File file = new File(imagePath);
 
         Response response = given().contentType(ContentType.TEXT)
-                                       .accept(ContentType.TEXT)
-                                       .header("Authorization", token)
-                                       .body(file)
-                                       .put("https://api.spotify.com/v1/playlists/"+playlistId[1]+"/images");
+                                   .accept(ContentType.TEXT)
+                                   .header("Authorization", token)
+                                   .body(file)
+                                   .put("https://api.spotify.com/v1/playlists/"+playlistId[1]+"/images");
 
         response.prettyPrint();
         response.then().statusCode(202);
@@ -138,20 +140,21 @@ public class TestPlaylistAPi {
      */
     @Test
     public void testPUT_05_WhenReorder_Or_ReplaceA_PlaylistItems_ShouldReturn_StatusCode200_Or_201() {
+        //declared map object and initialized with hashmap
         Map<String,Object> map = new HashMap<>();
         map.put("range_start",1);
         map.put( "insert_before",3);
         map.put( "range_length",2);
 
+        //created json object
         JSONObject body = new JSONObject(map);
 
-        Response response = given()
-                            .queryParam("uris", "spotify:track:74IQCxI4nws964fic1Q4pv")
-                            .contentType(ContentType.JSON)
-                            .accept(ContentType.JSON)
-                            .header("Authorization", token)
-                            .body(body)
-                            .put("https://api.spotify.com/v1/playlists/"+playlistId[2]+"/tracks");
+        Response response = given().queryParam("uris", "spotify:track:74IQCxI4nws964fic1Q4pv")
+                                   .contentType(ContentType.JSON)
+                                   .accept(ContentType.JSON)
+                                   .header("Authorization", token)
+                                   .body(body)
+                                   .put("https://api.spotify.com/v1/playlists/"+playlistId[2]+"/tracks");
 
         response.prettyPrint();
         response.then().statusCode(201);
@@ -163,11 +166,13 @@ public class TestPlaylistAPi {
      */
     @Test
     public void testPUT_06_WhenChange_APlaylistDetails_ShouldReturn_StatusCode200() {
+        //declared map object and initialized with hashmap
         Map<String,Object> map = new HashMap<>();
         map.put("name", "Latest Songs");
         map.put("description", "Latest Songs");
         map.put("public", false);
 
+        //created json object
         JSONObject body = new JSONObject(map);
 
         Response response = given().contentType(ContentType.JSON)
