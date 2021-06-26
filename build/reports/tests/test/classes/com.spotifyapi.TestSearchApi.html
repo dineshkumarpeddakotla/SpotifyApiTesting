@@ -1,0 +1,1017 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class com.spotifyapi.TestSearchApi</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class com.spotifyapi.TestSearchApi</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.spotifyapi.html">com.spotifyapi</a> &gt; TestSearchApi</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">3.767s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testGET_01_WhenSearch_ForAnItem_ShouldReturn_StatusCode200</td>
+<td class="success">3.767s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>{
+    &quot;albums&quot;: {
+        &quot;href&quot;: &quot;https://api.spotify.com/v1/search?query=Uppena&amp;type=album&amp;market=IN&amp;offset=0&amp;limit=20&quot;,
+        &quot;items&quot;: [
+            {
+                &quot;album_type&quot;: &quot;album&quot;,
+                &quot;artists&quot;: [
+                    {
+                        &quot;external_urls&quot;: {
+                            &quot;spotify&quot;: &quot;https://open.spotify.com/artist/5sSzCxHtgL82pYDvx2QyEU&quot;
+                        },
+                        &quot;href&quot;: &quot;https://api.spotify.com/v1/artists/5sSzCxHtgL82pYDvx2QyEU&quot;,
+                        &quot;id&quot;: &quot;5sSzCxHtgL82pYDvx2QyEU&quot;,
+                        &quot;name&quot;: &quot;Devi Sri Prasad&quot;,
+                        &quot;type&quot;: &quot;artist&quot;,
+                        &quot;uri&quot;: &quot;spotify:artist:5sSzCxHtgL82pYDvx2QyEU&quot;
+                    }
+                ],
+                &quot;external_urls&quot;: {
+                    &quot;spotify&quot;: &quot;https://open.spotify.com/album/4ug7KdJJ2CVG5fANdZbzHM&quot;
+                },
+                &quot;href&quot;: &quot;https://api.spotify.com/v1/albums/4ug7KdJJ2CVG5fANdZbzHM&quot;,
+                &quot;id&quot;: &quot;4ug7KdJJ2CVG5fANdZbzHM&quot;,
+                &quot;images&quot;: [
+                    {
+                        &quot;height&quot;: 640,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d0000b2730b39accb520c23c57eab5701&quot;,
+                        &quot;width&quot;: 640
+                    },
+                    {
+                        &quot;height&quot;: 300,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d00001e020b39accb520c23c57eab5701&quot;,
+                        &quot;width&quot;: 300
+                    },
+                    {
+                        &quot;height&quot;: 64,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d000048510b39accb520c23c57eab5701&quot;,
+                        &quot;width&quot;: 64
+                    }
+                ],
+                &quot;name&quot;: &quot;Uppena&quot;,
+                &quot;release_date&quot;: &quot;2021-02-18&quot;,
+                &quot;release_date_precision&quot;: &quot;day&quot;,
+                &quot;total_tracks&quot;: 8,
+                &quot;type&quot;: &quot;album&quot;,
+                &quot;uri&quot;: &quot;spotify:album:4ug7KdJJ2CVG5fANdZbzHM&quot;
+            },
+            {
+                &quot;album_type&quot;: &quot;single&quot;,
+                &quot;artists&quot;: [
+                    {
+                        &quot;external_urls&quot;: {
+                            &quot;spotify&quot;: &quot;https://open.spotify.com/artist/5sSzCxHtgL82pYDvx2QyEU&quot;
+                        },
+                        &quot;href&quot;: &quot;https://api.spotify.com/v1/artists/5sSzCxHtgL82pYDvx2QyEU&quot;,
+                        &quot;id&quot;: &quot;5sSzCxHtgL82pYDvx2QyEU&quot;,
+                        &quot;name&quot;: &quot;Devi Sri Prasad&quot;,
+                        &quot;type&quot;: &quot;artist&quot;,
+                        &quot;uri&quot;: &quot;spotify:artist:5sSzCxHtgL82pYDvx2QyEU&quot;
+                    }
+                ],
+                &quot;external_urls&quot;: {
+                    &quot;spotify&quot;: &quot;https://open.spotify.com/album/0cpn4u9Todg0wNbQFUmQVy&quot;
+                },
+                &quot;href&quot;: &quot;https://api.spotify.com/v1/albums/0cpn4u9Todg0wNbQFUmQVy&quot;,
+                &quot;id&quot;: &quot;0cpn4u9Todg0wNbQFUmQVy&quot;,
+                &quot;images&quot;: [
+                    {
+                        &quot;height&quot;: 640,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d0000b273b6664d328d9733c3cd095533&quot;,
+                        &quot;width&quot;: 640
+                    },
+                    {
+                        &quot;height&quot;: 300,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d00001e02b6664d328d9733c3cd095533&quot;,
+                        &quot;width&quot;: 300
+                    },
+                    {
+                        &quot;height&quot;: 64,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d00004851b6664d328d9733c3cd095533&quot;,
+                        &quot;width&quot;: 64
+                    }
+                ],
+                &quot;name&quot;: &quot;Uppena&quot;,
+                &quot;release_date&quot;: &quot;2021-01-31&quot;,
+                &quot;release_date_precision&quot;: &quot;day&quot;,
+                &quot;total_tracks&quot;: 1,
+                &quot;type&quot;: &quot;album&quot;,
+                &quot;uri&quot;: &quot;spotify:album:0cpn4u9Todg0wNbQFUmQVy&quot;
+            },
+            {
+                &quot;album_type&quot;: &quot;single&quot;,
+                &quot;artists&quot;: [
+                    {
+                        &quot;external_urls&quot;: {
+                            &quot;spotify&quot;: &quot;https://open.spotify.com/artist/2oSONSC9zQ4UonDKnLqksx&quot;
+                        },
+                        &quot;href&quot;: &quot;https://api.spotify.com/v1/artists/2oSONSC9zQ4UonDKnLqksx&quot;,
+                        &quot;id&quot;: &quot;2oSONSC9zQ4UonDKnLqksx&quot;,
+                        &quot;name&quot;: &quot;Atif Aslam&quot;,
+                        &quot;type&quot;: &quot;artist&quot;,
+                        &quot;uri&quot;: &quot;spotify:artist:2oSONSC9zQ4UonDKnLqksx&quot;
+                    },
+                    {
+                        &quot;external_urls&quot;: {
+                            &quot;spotify&quot;: &quot;https://open.spotify.com/artist/7DcUua74PM7MmBljTTjIyy&quot;
+                        },
+                        &quot;href&quot;: &quot;https://api.spotify.com/v1/artists/7DcUua74PM7MmBljTTjIyy&quot;,
+                        &quot;id&quot;: &quot;7DcUua74PM7MmBljTTjIyy&quot;,
+                        &quot;name&quot;: &quot;Shiraz Uppal&quot;,
+                        &quot;type&quot;: &quot;artist&quot;,
+                        &quot;uri&quot;: &quot;spotify:artist:7DcUua74PM7MmBljTTjIyy&quot;
+                    }
+                ],
+                &quot;external_urls&quot;: {
+                    &quot;spotify&quot;: &quot;https://open.spotify.com/album/5pAPEuGi48iywzO2NT5Ddt&quot;
+                },
+                &quot;href&quot;: &quot;https://api.spotify.com/v1/albums/5pAPEuGi48iywzO2NT5Ddt&quot;,
+                &quot;id&quot;: &quot;5pAPEuGi48iywzO2NT5Ddt&quot;,
+                &quot;images&quot;: [
+                    {
+                        &quot;height&quot;: 640,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d0000b273afd2bc3f876235be94c0d36d&quot;,
+                        &quot;width&quot;: 640
+                    },
+                    {
+                        &quot;height&quot;: 300,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d00001e02afd2bc3f876235be94c0d36d&quot;,
+                        &quot;width&quot;: 300
+                    },
+                    {
+                        &quot;height&quot;: 64,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d00004851afd2bc3f876235be94c0d36d&quot;,
+                        &quot;width&quot;: 64
+                    }
+                ],
+                &quot;name&quot;: &quot;Pehli Dafa&quot;,
+                &quot;release_date&quot;: &quot;2017-01-06&quot;,
+                &quot;release_date_precision&quot;: &quot;day&quot;,
+                &quot;total_tracks&quot;: 1,
+                &quot;type&quot;: &quot;album&quot;,
+                &quot;uri&quot;: &quot;spotify:album:5pAPEuGi48iywzO2NT5Ddt&quot;
+            },
+            {
+                &quot;album_type&quot;: &quot;single&quot;,
+                &quot;artists&quot;: [
+                    {
+                        &quot;external_urls&quot;: {
+                            &quot;spotify&quot;: &quot;https://open.spotify.com/artist/5sSzCxHtgL82pYDvx2QyEU&quot;
+                        },
+                        &quot;href&quot;: &quot;https://api.spotify.com/v1/artists/5sSzCxHtgL82pYDvx2QyEU&quot;,
+                        &quot;id&quot;: &quot;5sSzCxHtgL82pYDvx2QyEU&quot;,
+                        &quot;name&quot;: &quot;Devi Sri Prasad&quot;,
+                        &quot;type&quot;: &quot;artist&quot;,
+                        &quot;uri&quot;: &quot;spotify:artist:5sSzCxHtgL82pYDvx2QyEU&quot;
+                    }
+                ],
+                &quot;external_urls&quot;: {
+                    &quot;spotify&quot;: &quot;https://open.spotify.com/album/0vHE0cmA8orbBgzIWz9T3D&quot;
+                },
+                &quot;href&quot;: &quot;https://api.spotify.com/v1/albums/0vHE0cmA8orbBgzIWz9T3D&quot;,
+                &quot;id&quot;: &quot;0vHE0cmA8orbBgzIWz9T3D&quot;,
+                &quot;images&quot;: [
+                    {
+                        &quot;height&quot;: 640,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d0000b27317e013ccb50703f3e9bcf1d8&quot;,
+                        &quot;width&quot;: 640
+                    },
+                    {
+                        &quot;height&quot;: 300,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d00001e0217e013ccb50703f3e9bcf1d8&quot;,
+                        &quot;width&quot;: 300
+                    },
+                    {
+                        &quot;height&quot;: 64,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d0000485117e013ccb50703f3e9bcf1d8&quot;,
+                        &quot;width&quot;: 64
+                    }
+                ],
+                &quot;name&quot;: &quot;Uppena&quot;,
+                &quot;release_date&quot;: &quot;2020-03-02&quot;,
+                &quot;release_date_precision&quot;: &quot;day&quot;,
+                &quot;total_tracks&quot;: 1,
+                &quot;type&quot;: &quot;album&quot;,
+                &quot;uri&quot;: &quot;spotify:album:0vHE0cmA8orbBgzIWz9T3D&quot;
+            },
+            {
+                &quot;album_type&quot;: &quot;single&quot;,
+                &quot;artists&quot;: [
+                    {
+                        &quot;external_urls&quot;: {
+                            &quot;spotify&quot;: &quot;https://open.spotify.com/artist/3xSxDireyobIryR5nIaHa0&quot;
+                        },
+                        &quot;href&quot;: &quot;https://api.spotify.com/v1/artists/3xSxDireyobIryR5nIaHa0&quot;,
+                        &quot;id&quot;: &quot;3xSxDireyobIryR5nIaHa0&quot;,
+                        &quot;name&quot;: &quot;Guru Kiran&quot;,
+                        &quot;type&quot;: &quot;artist&quot;,
+                        &quot;uri&quot;: &quot;spotify:artist:3xSxDireyobIryR5nIaHa0&quot;
+                    }
+                ],
+                &quot;external_urls&quot;: {
+                    &quot;spotify&quot;: &quot;https://open.spotify.com/album/34iJ9b445VsiXQLSZcCn4J&quot;
+                },
+                &quot;href&quot;: &quot;https://api.spotify.com/v1/albums/34iJ9b445VsiXQLSZcCn4J&quot;,
+                &quot;id&quot;: &quot;34iJ9b445VsiXQLSZcCn4J&quot;,
+                &quot;images&quot;: [
+                    {
+                        &quot;height&quot;: 640,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d0000b27313941fd45da2e6ed4f9b43e4&quot;,
+                        &quot;width&quot;: 640
+                    },
+                    {
+                        &quot;height&quot;: 300,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d00001e0213941fd45da2e6ed4f9b43e4&quot;,
+                        &quot;width&quot;: 300
+                    },
+                    {
+                        &quot;height&quot;: 64,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d0000485113941fd45da2e6ed4f9b43e4&quot;,
+                        &quot;width&quot;: 64
+                    }
+                ],
+                &quot;name&quot;: &quot;A&quot;,
+                &quot;release_date&quot;: &quot;2014-08-01&quot;,
+                &quot;release_date_precision&quot;: &quot;day&quot;,
+                &quot;total_tracks&quot;: 5,
+                &quot;type&quot;: &quot;album&quot;,
+                &quot;uri&quot;: &quot;spotify:album:34iJ9b445VsiXQLSZcCn4J&quot;
+            },
+            {
+                &quot;album_type&quot;: &quot;single&quot;,
+                &quot;artists&quot;: [
+                    {
+                        &quot;external_urls&quot;: {
+                            &quot;spotify&quot;: &quot;https://open.spotify.com/artist/5sSzCxHtgL82pYDvx2QyEU&quot;
+                        },
+                        &quot;href&quot;: &quot;https://api.spotify.com/v1/artists/5sSzCxHtgL82pYDvx2QyEU&quot;,
+                        &quot;id&quot;: &quot;5sSzCxHtgL82pYDvx2QyEU&quot;,
+                        &quot;name&quot;: &quot;Devi Sri Prasad&quot;,
+                        &quot;type&quot;: &quot;artist&quot;,
+                        &quot;uri&quot;: &quot;spotify:artist:5sSzCxHtgL82pYDvx2QyEU&quot;
+                    }
+                ],
+                &quot;external_urls&quot;: {
+                    &quot;spotify&quot;: &quot;https://open.spotify.com/album/6xKbqQmgpCG4KB4gqtTC2T&quot;
+                },
+                &quot;href&quot;: &quot;https://api.spotify.com/v1/albums/6xKbqQmgpCG4KB4gqtTC2T&quot;,
+                &quot;id&quot;: &quot;6xKbqQmgpCG4KB4gqtTC2T&quot;,
+                &quot;images&quot;: [
+                    {
+                        &quot;height&quot;: 640,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d0000b27335647eb63d67cb1c2b108762&quot;,
+                        &quot;width&quot;: 640
+                    },
+                    {
+                        &quot;height&quot;: 300,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d00001e0235647eb63d67cb1c2b108762&quot;,
+                        &quot;width&quot;: 300
+                    },
+                    {
+                        &quot;height&quot;: 64,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d0000485135647eb63d67cb1c2b108762&quot;,
+                        &quot;width&quot;: 64
+                    }
+                ],
+                &quot;name&quot;: &quot;Uppena&quot;,
+                &quot;release_date&quot;: &quot;2020-11-11&quot;,
+                &quot;release_date_precision&quot;: &quot;day&quot;,
+                &quot;total_tracks&quot;: 1,
+                &quot;type&quot;: &quot;album&quot;,
+                &quot;uri&quot;: &quot;spotify:album:6xKbqQmgpCG4KB4gqtTC2T&quot;
+            },
+            {
+                &quot;album_type&quot;: &quot;album&quot;,
+                &quot;artists&quot;: [
+                    {
+                        &quot;external_urls&quot;: {
+                            &quot;spotify&quot;: &quot;https://open.spotify.com/artist/58r1rB5t3VF5X6yXGPequV&quot;
+                        },
+                        &quot;href&quot;: &quot;https://api.spotify.com/v1/artists/58r1rB5t3VF5X6yXGPequV&quot;,
+                        &quot;id&quot;: &quot;58r1rB5t3VF5X6yXGPequV&quot;,
+                        &quot;name&quot;: &quot;Maverick City Music&quot;,
+                        &quot;type&quot;: &quot;artist&quot;,
+                        &quot;uri&quot;: &quot;spotify:artist:58r1rB5t3VF5X6yXGPequV&quot;
+                    },
+                    {
+                        &quot;external_urls&quot;: {
+                            &quot;spotify&quot;: &quot;https://open.spotify.com/artist/107CG0UhUl9GJnPwF83N63&quot;
+                        },
+                        &quot;href&quot;: &quot;https://api.spotify.com/v1/artists/107CG0UhUl9GJnPwF83N63&quot;,
+                        &quot;id&quot;: &quot;107CG0UhUl9GJnPwF83N63&quot;,
+                        &quot;name&quot;: &quot;UPPERROOM&quot;,
+                        &quot;type&quot;: &quot;artist&quot;,
+                        &quot;uri&quot;: &quot;spotify:artist:107CG0UhUl9GJnPwF83N63&quot;
+                    }
+                ],
+                &quot;external_urls&quot;: {
+                    &quot;spotify&quot;: &quot;https://open.spotify.com/album/2rOZswj1Kdxl7mQgVeqjNq&quot;
+                },
+                &quot;href&quot;: &quot;https://api.spotify.com/v1/albums/2rOZswj1Kdxl7mQgVeqjNq&quot;,
+                &quot;id&quot;: &quot;2rOZswj1Kdxl7mQgVeqjNq&quot;,
+                &quot;images&quot;: [
+                    {
+                        &quot;height&quot;: 640,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d0000b27347de3848168a18b4f4b2a283&quot;,
+                        &quot;width&quot;: 640
+                    },
+                    {
+                        &quot;height&quot;: 300,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d00001e0247de3848168a18b4f4b2a283&quot;,
+                        &quot;width&quot;: 300
+                    },
+                    {
+                        &quot;height&quot;: 64,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d0000485147de3848168a18b4f4b2a283&quot;,
+                        &quot;width&quot;: 64
+                    }
+                ],
+                &quot;name&quot;: &quot;Move Your Heart&quot;,
+                &quot;release_date&quot;: &quot;2021-01-29&quot;,
+                &quot;release_date_precision&quot;: &quot;day&quot;,
+                &quot;total_tracks&quot;: 7,
+                &quot;type&quot;: &quot;album&quot;,
+                &quot;uri&quot;: &quot;spotify:album:2rOZswj1Kdxl7mQgVeqjNq&quot;
+            },
+            {
+                &quot;album_type&quot;: &quot;single&quot;,
+                &quot;artists&quot;: [
+                    {
+                        &quot;external_urls&quot;: {
+                            &quot;spotify&quot;: &quot;https://open.spotify.com/artist/5sSzCxHtgL82pYDvx2QyEU&quot;
+                        },
+                        &quot;href&quot;: &quot;https://api.spotify.com/v1/artists/5sSzCxHtgL82pYDvx2QyEU&quot;,
+                        &quot;id&quot;: &quot;5sSzCxHtgL82pYDvx2QyEU&quot;,
+                        &quot;name&quot;: &quot;Devi Sri Prasad&quot;,
+                        &quot;type&quot;: &quot;artist&quot;,
+                        &quot;uri&quot;: &quot;spotify:artist:5sSzCxHtgL82pYDvx2QyEU&quot;
+                    }
+                ],
+                &quot;external_urls&quot;: {
+                    &quot;spotify&quot;: &quot;https://open.spotify.com/album/1Ns97dsPOWTSm1YJUkEMb7&quot;
+                },
+                &quot;href&quot;: &quot;https://api.spotify.com/v1/albums/1Ns97dsPOWTSm1YJUkEMb7&quot;,
+                &quot;id&quot;: &quot;1Ns97dsPOWTSm1YJUkEMb7&quot;,
+                &quot;images&quot;: [
+                    {
+                        &quot;height&quot;: 640,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d0000b273939b3d2b9147398a393dc19c&quot;,
+                        &quot;width&quot;: 640
+                    },
+                    {
+                        &quot;height&quot;: 300,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d00001e02939b3d2b9147398a393dc19c&quot;,
+                        &quot;width&quot;: 300
+                    },
+                    {
+                        &quot;height&quot;: 64,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d00004851939b3d2b9147398a393dc19c&quot;,
+                        &quot;width&quot;: 64
+                    }
+                ],
+                &quot;name&quot;: &quot;Uppena&quot;,
+                &quot;release_date&quot;: &quot;2021-02-06&quot;,
+                &quot;release_date_precision&quot;: &quot;day&quot;,
+                &quot;total_tracks&quot;: 1,
+                &quot;type&quot;: &quot;album&quot;,
+                &quot;uri&quot;: &quot;spotify:album:1Ns97dsPOWTSm1YJUkEMb7&quot;
+            },
+            {
+                &quot;album_type&quot;: &quot;single&quot;,
+                &quot;artists&quot;: [
+                    {
+                        &quot;external_urls&quot;: {
+                            &quot;spotify&quot;: &quot;https://open.spotify.com/artist/2gmPDpR4396fHMXsV1jWbH&quot;
+                        },
+                        &quot;href&quot;: &quot;https://api.spotify.com/v1/artists/2gmPDpR4396fHMXsV1jWbH&quot;,
+                        &quot;id&quot;: &quot;2gmPDpR4396fHMXsV1jWbH&quot;,
+                        &quot;name&quot;: &quot;Upendra&quot;,
+                        &quot;type&quot;: &quot;artist&quot;,
+                        &quot;uri&quot;: &quot;spotify:artist:2gmPDpR4396fHMXsV1jWbH&quot;
+                    }
+                ],
+                &quot;external_urls&quot;: {
+                    &quot;spotify&quot;: &quot;https://open.spotify.com/album/0TgTlx6ijcMB6O8wpIpkU0&quot;
+                },
+                &quot;href&quot;: &quot;https://api.spotify.com/v1/albums/0TgTlx6ijcMB6O8wpIpkU0&quot;,
+                &quot;id&quot;: &quot;0TgTlx6ijcMB6O8wpIpkU0&quot;,
+                &quot;images&quot;: [
+                    {
+                        &quot;height&quot;: 640,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d0000b27377d7f48f1761a33d88d00394&quot;,
+                        &quot;width&quot;: 640
+                    },
+                    {
+                        &quot;height&quot;: 300,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d00001e0277d7f48f1761a33d88d00394&quot;,
+                        &quot;width&quot;: 300
+                    },
+                    {
+                        &quot;height&quot;: 64,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d0000485177d7f48f1761a33d88d00394&quot;,
+                        &quot;width&quot;: 64
+                    }
+                ],
+                &quot;name&quot;: &quot;Mukunda Murari&quot;,
+                &quot;release_date&quot;: &quot;2016-10-16&quot;,
+                &quot;release_date_precision&quot;: &quot;day&quot;,
+                &quot;total_tracks&quot;: 5,
+                &quot;type&quot;: &quot;album&quot;,
+                &quot;uri&quot;: &quot;spotify:album:0TgTlx6ijcMB6O8wpIpkU0&quot;
+            },
+            {
+                &quot;album_type&quot;: &quot;single&quot;,
+                &quot;artists&quot;: [
+                    {
+                        &quot;external_urls&quot;: {
+                            &quot;spotify&quot;: &quot;https://open.spotify.com/artist/5sSzCxHtgL82pYDvx2QyEU&quot;
+                        },
+                        &quot;href&quot;: &quot;https://api.spotify.com/v1/artists/5sSzCxHtgL82pYDvx2QyEU&quot;,
+                        &quot;id&quot;: &quot;5sSzCxHtgL82pYDvx2QyEU&quot;,
+                        &quot;name&quot;: &quot;Devi Sri Prasad&quot;,
+                        &quot;type&quot;: &quot;artist&quot;,
+                        &quot;uri&quot;: &quot;spotify:artist:5sSzCxHtgL82pYDvx2QyEU&quot;
+                    }
+                ],
+                &quot;external_urls&quot;: {
+                    &quot;spotify&quot;: &quot;https://open.spotify.com/album/1RPiYyDIrhTMvxYtTsKR8Z&quot;
+                },
+                &quot;href&quot;: &quot;https://api.spotify.com/v1/albums/1RPiYyDIrhTMvxYtTsKR8Z&quot;,
+                &quot;id&quot;: &quot;1RPiYyDIrhTMvxYtTsKR8Z&quot;,
+                &quot;images&quot;: [
+                    {
+                        &quot;height&quot;: 640,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d0000b2732fa4bdcc685d0bb72b9cf072&quot;,
+                        &quot;width&quot;: 640
+                    },
+                    {
+                        &quot;height&quot;: 300,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d00001e022fa4bdcc685d0bb72b9cf072&quot;,
+                        &quot;width&quot;: 300
+                    },
+                    {
+                        &quot;height&quot;: 64,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d000048512fa4bdcc685d0bb72b9cf072&quot;,
+                        &quot;width&quot;: 64
+                    }
+                ],
+                &quot;name&quot;: &quot;Uppena&quot;,
+                &quot;release_date&quot;: &quot;2021-01-20&quot;,
+                &quot;release_date_precision&quot;: &quot;day&quot;,
+                &quot;total_tracks&quot;: 1,
+                &quot;type&quot;: &quot;album&quot;,
+                &quot;uri&quot;: &quot;spotify:album:1RPiYyDIrhTMvxYtTsKR8Z&quot;
+            },
+            {
+                &quot;album_type&quot;: &quot;single&quot;,
+                &quot;artists&quot;: [
+                    {
+                        &quot;external_urls&quot;: {
+                            &quot;spotify&quot;: &quot;https://open.spotify.com/artist/2gmPDpR4396fHMXsV1jWbH&quot;
+                        },
+                        &quot;href&quot;: &quot;https://api.spotify.com/v1/artists/2gmPDpR4396fHMXsV1jWbH&quot;,
+                        &quot;id&quot;: &quot;2gmPDpR4396fHMXsV1jWbH&quot;,
+                        &quot;name&quot;: &quot;Upendra&quot;,
+                        &quot;type&quot;: &quot;artist&quot;,
+                        &quot;uri&quot;: &quot;spotify:artist:2gmPDpR4396fHMXsV1jWbH&quot;
+                    },
+                    {
+                        &quot;external_urls&quot;: {
+                            &quot;spotify&quot;: &quot;https://open.spotify.com/artist/2hEZEgzGbHSTc4Kfu975bw&quot;
+                        },
+                        &quot;href&quot;: &quot;https://api.spotify.com/v1/artists/2hEZEgzGbHSTc4Kfu975bw&quot;,
+                        &quot;id&quot;: &quot;2hEZEgzGbHSTc4Kfu975bw&quot;,
+                        &quot;name&quot;: &quot;Deepika Padukone&quot;,
+                        &quot;type&quot;: &quot;artist&quot;,
+                        &quot;uri&quot;: &quot;spotify:artist:2hEZEgzGbHSTc4Kfu975bw&quot;
+                    }
+                ],
+                &quot;external_urls&quot;: {
+                    &quot;spotify&quot;: &quot;https://open.spotify.com/album/3qlotPHpAYPxsho9wXkFBs&quot;
+                },
+                &quot;href&quot;: &quot;https://api.spotify.com/v1/albums/3qlotPHpAYPxsho9wXkFBs&quot;,
+                &quot;id&quot;: &quot;3qlotPHpAYPxsho9wXkFBs&quot;,
+                &quot;images&quot;: [
+                    {
+                        &quot;height&quot;: 640,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d0000b273f6dc39befc3aa4de0b530c88&quot;,
+                        &quot;width&quot;: 640
+                    },
+                    {
+                        &quot;height&quot;: 300,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d00001e02f6dc39befc3aa4de0b530c88&quot;,
+                        &quot;width&quot;: 300
+                    },
+                    {
+                        &quot;height&quot;: 64,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d00004851f6dc39befc3aa4de0b530c88&quot;,
+                        &quot;width&quot;: 64
+                    }
+                ],
+                &quot;name&quot;: &quot;Aishwarya&quot;,
+                &quot;release_date&quot;: &quot;2006-08-15&quot;,
+                &quot;release_date_precision&quot;: &quot;day&quot;,
+                &quot;total_tracks&quot;: 6,
+                &quot;type&quot;: &quot;album&quot;,
+                &quot;uri&quot;: &quot;spotify:album:3qlotPHpAYPxsho9wXkFBs&quot;
+            },
+            {
+                &quot;album_type&quot;: &quot;album&quot;,
+                &quot;artists&quot;: [
+                    {
+                        &quot;external_urls&quot;: {
+                            &quot;spotify&quot;: &quot;https://open.spotify.com/artist/4f0v5RzUksKaYf3GVvYZjP&quot;
+                        },
+                        &quot;href&quot;: &quot;https://api.spotify.com/v1/artists/4f0v5RzUksKaYf3GVvYZjP&quot;,
+                        &quot;id&quot;: &quot;4f0v5RzUksKaYf3GVvYZjP&quot;,
+                        &quot;name&quot;: &quot;Dr. Asher Andrew&quot;,
+                        &quot;type&quot;: &quot;artist&quot;,
+                        &quot;uri&quot;: &quot;spotify:artist:4f0v5RzUksKaYf3GVvYZjP&quot;
+                    }
+                ],
+                &quot;external_urls&quot;: {
+                    &quot;spotify&quot;: &quot;https://open.spotify.com/album/4pwhzPdI1iLgatyhYZUPoV&quot;
+                },
+                &quot;href&quot;: &quot;https://api.spotify.com/v1/albums/4pwhzPdI1iLgatyhYZUPoV&quot;,
+                &quot;id&quot;: &quot;4pwhzPdI1iLgatyhYZUPoV&quot;,
+                &quot;images&quot;: [
+                    {
+                        &quot;height&quot;: 640,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d0000b2739082638b498204bac885b1eb&quot;,
+                        &quot;width&quot;: 640
+                    },
+                    {
+                        &quot;height&quot;: 300,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d00001e029082638b498204bac885b1eb&quot;,
+                        &quot;width&quot;: 300
+                    },
+                    {
+                        &quot;height&quot;: 64,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d000048519082638b498204bac885b1eb&quot;,
+                        &quot;width&quot;: 64
+                    }
+                ],
+                &quot;name&quot;: &quot;Uppenai Regenaa&quot;,
+                &quot;release_date&quot;: &quot;2019-03-16&quot;,
+                &quot;release_date_precision&quot;: &quot;day&quot;,
+                &quot;total_tracks&quot;: 7,
+                &quot;type&quot;: &quot;album&quot;,
+                &quot;uri&quot;: &quot;spotify:album:4pwhzPdI1iLgatyhYZUPoV&quot;
+            },
+            {
+                &quot;album_type&quot;: &quot;album&quot;,
+                &quot;artists&quot;: [
+                    {
+                        &quot;external_urls&quot;: {
+                            &quot;spotify&quot;: &quot;https://open.spotify.com/artist/58r1rB5t3VF5X6yXGPequV&quot;
+                        },
+                        &quot;href&quot;: &quot;https://api.spotify.com/v1/artists/58r1rB5t3VF5X6yXGPequV&quot;,
+                        &quot;id&quot;: &quot;58r1rB5t3VF5X6yXGPequV&quot;,
+                        &quot;name&quot;: &quot;Maverick City Music&quot;,
+                        &quot;type&quot;: &quot;artist&quot;,
+                        &quot;uri&quot;: &quot;spotify:artist:58r1rB5t3VF5X6yXGPequV&quot;
+                    },
+                    {
+                        &quot;external_urls&quot;: {
+                            &quot;spotify&quot;: &quot;https://open.spotify.com/artist/107CG0UhUl9GJnPwF83N63&quot;
+                        },
+                        &quot;href&quot;: &quot;https://api.spotify.com/v1/artists/107CG0UhUl9GJnPwF83N63&quot;,
+                        &quot;id&quot;: &quot;107CG0UhUl9GJnPwF83N63&quot;,
+                        &quot;name&quot;: &quot;UPPERROOM&quot;,
+                        &quot;type&quot;: &quot;artist&quot;,
+                        &quot;uri&quot;: &quot;spotify:artist:107CG0UhUl9GJnPwF83N63&quot;
+                    }
+                ],
+                &quot;external_urls&quot;: {
+                    &quot;spotify&quot;: &quot;https://open.spotify.com/album/5Rwg9WSled5jya2XlUfFSN&quot;
+                },
+                &quot;href&quot;: &quot;https://api.spotify.com/v1/albums/5Rwg9WSled5jya2XlUfFSN&quot;,
+                &quot;id&quot;: &quot;5Rwg9WSled5jya2XlUfFSN&quot;,
+                &quot;images&quot;: [
+                    {
+                        &quot;height&quot;: 640,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d0000b2739a43c1b659c4436a689f30aa&quot;,
+                        &quot;width&quot;: 640
+                    },
+                    {
+                        &quot;height&quot;: 300,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d00001e029a43c1b659c4436a689f30aa&quot;,
+                        &quot;width&quot;: 300
+                    },
+                    {
+                        &quot;height&quot;: 64,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d000048519a43c1b659c4436a689f30aa&quot;,
+                        &quot;width&quot;: 64
+                    }
+                ],
+                &quot;name&quot;: &quot;You Hold It All Together&quot;,
+                &quot;release_date&quot;: &quot;2020-11-20&quot;,
+                &quot;release_date_precision&quot;: &quot;day&quot;,
+                &quot;total_tracks&quot;: 8,
+                &quot;type&quot;: &quot;album&quot;,
+                &quot;uri&quot;: &quot;spotify:album:5Rwg9WSled5jya2XlUfFSN&quot;
+            },
+            {
+                &quot;album_type&quot;: &quot;album&quot;,
+                &quot;artists&quot;: [
+                    {
+                        &quot;external_urls&quot;: {
+                            &quot;spotify&quot;: &quot;https://open.spotify.com/artist/6BOARM09ZGU5fRNT54e4r0&quot;
+                        },
+                        &quot;href&quot;: &quot;https://api.spotify.com/v1/artists/6BOARM09ZGU5fRNT54e4r0&quot;,
+                        &quot;id&quot;: &quot;6BOARM09ZGU5fRNT54e4r0&quot;,
+                        &quot;name&quot;: &quot;Sadhu Kokila&quot;,
+                        &quot;type&quot;: &quot;artist&quot;,
+                        &quot;uri&quot;: &quot;spotify:artist:6BOARM09ZGU5fRNT54e4r0&quot;
+                    }
+                ],
+                &quot;external_urls&quot;: {
+                    &quot;spotify&quot;: &quot;https://open.spotify.com/album/2w0ELejg3PPwe3TXW4rPWg&quot;
+                },
+                &quot;href&quot;: &quot;https://api.spotify.com/v1/albums/2w0ELejg3PPwe3TXW4rPWg&quot;,
+                &quot;id&quot;: &quot;2w0ELejg3PPwe3TXW4rPWg&quot;,
+                &quot;images&quot;: [
+                    {
+                        &quot;height&quot;: 640,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d0000b27362c6d6f9684af32ca7a1aa3d&quot;,
+                        &quot;width&quot;: 640
+                    },
+                    {
+                        &quot;height&quot;: 300,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d00001e0262c6d6f9684af32ca7a1aa3d&quot;,
+                        &quot;width&quot;: 300
+                    },
+                    {
+                        &quot;height&quot;: 64,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d0000485162c6d6f9684af32ca7a1aa3d&quot;,
+                        &quot;width&quot;: 64
+                    }
+                ],
+                &quot;name&quot;: &quot;Raktha Kanneeru&quot;,
+                &quot;release_date&quot;: &quot;2003-08-11&quot;,
+                &quot;release_date_precision&quot;: &quot;day&quot;,
+                &quot;total_tracks&quot;: 6,
+                &quot;type&quot;: &quot;album&quot;,
+                &quot;uri&quot;: &quot;spotify:album:2w0ELejg3PPwe3TXW4rPWg&quot;
+            },
+            {
+                &quot;album_type&quot;: &quot;single&quot;,
+                &quot;artists&quot;: [
+                    {
+                        &quot;external_urls&quot;: {
+                            &quot;spotify&quot;: &quot;https://open.spotify.com/artist/1dyi4oQFztH4zYxH4ywRpz&quot;
+                        },
+                        &quot;href&quot;: &quot;https://api.spotify.com/v1/artists/1dyi4oQFztH4zYxH4ywRpz&quot;,
+                        &quot;id&quot;: &quot;1dyi4oQFztH4zYxH4ywRpz&quot;,
+                        &quot;name&quot;: &quot;Upendra Rana&quot;,
+                        &quot;type&quot;: &quot;artist&quot;,
+                        &quot;uri&quot;: &quot;spotify:artist:1dyi4oQFztH4zYxH4ywRpz&quot;
+                    }
+                ],
+                &quot;external_urls&quot;: {
+                    &quot;spotify&quot;: &quot;https://open.spotify.com/album/7azSusgjqZkpVxXApSY837&quot;
+                },
+                &quot;href&quot;: &quot;https://api.spotify.com/v1/albums/7azSusgjqZkpVxXApSY837&quot;,
+                &quot;id&quot;: &quot;7azSusgjqZkpVxXApSY837&quot;,
+                &quot;images&quot;: [
+                    {
+                        &quot;height&quot;: 640,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d0000b273eef5a51f8ea9d559facb2cd0&quot;,
+                        &quot;width&quot;: 640
+                    },
+                    {
+                        &quot;height&quot;: 300,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d00001e02eef5a51f8ea9d559facb2cd0&quot;,
+                        &quot;width&quot;: 300
+                    },
+                    {
+                        &quot;height&quot;: 64,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d00004851eef5a51f8ea9d559facb2cd0&quot;,
+                        &quot;width&quot;: 64
+                    }
+                ],
+                &quot;name&quot;: &quot;Hum Thakur Superstar&quot;,
+                &quot;release_date&quot;: &quot;2021-01-21&quot;,
+                &quot;release_date_precision&quot;: &quot;day&quot;,
+                &quot;total_tracks&quot;: 1,
+                &quot;type&quot;: &quot;album&quot;,
+                &quot;uri&quot;: &quot;spotify:album:7azSusgjqZkpVxXApSY837&quot;
+            },
+            {
+                &quot;album_type&quot;: &quot;album&quot;,
+                &quot;artists&quot;: [
+                    {
+                        &quot;external_urls&quot;: {
+                            &quot;spotify&quot;: &quot;https://open.spotify.com/artist/58UpHBCQ1Jj67DJsR7Qyqg&quot;
+                        },
+                        &quot;href&quot;: &quot;https://api.spotify.com/v1/artists/58UpHBCQ1Jj67DJsR7Qyqg&quot;,
+                        &quot;id&quot;: &quot;58UpHBCQ1Jj67DJsR7Qyqg&quot;,
+                        &quot;name&quot;: &quot;Uppermost&quot;,
+                        &quot;type&quot;: &quot;artist&quot;,
+                        &quot;uri&quot;: &quot;spotify:artist:58UpHBCQ1Jj67DJsR7Qyqg&quot;
+                    }
+                ],
+                &quot;external_urls&quot;: {
+                    &quot;spotify&quot;: &quot;https://open.spotify.com/album/5vbwjHvR5pxz6XFalG1xgq&quot;
+                },
+                &quot;href&quot;: &quot;https://api.spotify.com/v1/albums/5vbwjHvR5pxz6XFalG1xgq&quot;,
+                &quot;id&quot;: &quot;5vbwjHvR5pxz6XFalG1xgq&quot;,
+                &quot;images&quot;: [
+                    {
+                        &quot;height&quot;: 640,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d0000b273761d333503de1812f39a2286&quot;,
+                        &quot;width&quot;: 640
+                    },
+                    {
+                        &quot;height&quot;: 300,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d00001e02761d333503de1812f39a2286&quot;,
+                        &quot;width&quot;: 300
+                    },
+                    {
+                        &quot;height&quot;: 64,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d00004851761d333503de1812f39a2286&quot;,
+                        &quot;width&quot;: 64
+                    }
+                ],
+                &quot;name&quot;: &quot;Origins (2011-2016)&quot;,
+                &quot;release_date&quot;: &quot;2017-02-10&quot;,
+                &quot;release_date_precision&quot;: &quot;day&quot;,
+                &quot;total_tracks&quot;: 23,
+                &quot;type&quot;: &quot;album&quot;,
+                &quot;uri&quot;: &quot;spotify:album:5vbwjHvR5pxz6XFalG1xgq&quot;
+            },
+            {
+                &quot;album_type&quot;: &quot;album&quot;,
+                &quot;artists&quot;: [
+                    {
+                        &quot;external_urls&quot;: {
+                            &quot;spotify&quot;: &quot;https://open.spotify.com/artist/107CG0UhUl9GJnPwF83N63&quot;
+                        },
+                        &quot;href&quot;: &quot;https://api.spotify.com/v1/artists/107CG0UhUl9GJnPwF83N63&quot;,
+                        &quot;id&quot;: &quot;107CG0UhUl9GJnPwF83N63&quot;,
+                        &quot;name&quot;: &quot;UPPERROOM&quot;,
+                        &quot;type&quot;: &quot;artist&quot;,
+                        &quot;uri&quot;: &quot;spotify:artist:107CG0UhUl9GJnPwF83N63&quot;
+                    }
+                ],
+                &quot;external_urls&quot;: {
+                    &quot;spotify&quot;: &quot;https://open.spotify.com/album/4CVXOAkmstbNySWmp5LXIx&quot;
+                },
+                &quot;href&quot;: &quot;https://api.spotify.com/v1/albums/4CVXOAkmstbNySWmp5LXIx&quot;,
+                &quot;id&quot;: &quot;4CVXOAkmstbNySWmp5LXIx&quot;,
+                &quot;images&quot;: [
+                    {
+                        &quot;height&quot;: 640,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d0000b273e00e4a31275ea864ff64e0ce&quot;,
+                        &quot;width&quot;: 640
+                    },
+                    {
+                        &quot;height&quot;: 300,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d00001e02e00e4a31275ea864ff64e0ce&quot;,
+                        &quot;width&quot;: 300
+                    },
+                    {
+                        &quot;height&quot;: 64,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d00004851e00e4a31275ea864ff64e0ce&quot;,
+                        &quot;width&quot;: 64
+                    }
+                ],
+                &quot;name&quot;: &quot;Land of the Living (Live)&quot;,
+                &quot;release_date&quot;: &quot;2020-03-20&quot;,
+                &quot;release_date_precision&quot;: &quot;day&quot;,
+                &quot;total_tracks&quot;: 10,
+                &quot;type&quot;: &quot;album&quot;,
+                &quot;uri&quot;: &quot;spotify:album:4CVXOAkmstbNySWmp5LXIx&quot;
+            },
+            {
+                &quot;album_type&quot;: &quot;album&quot;,
+                &quot;artists&quot;: [
+                    {
+                        &quot;external_urls&quot;: {
+                            &quot;spotify&quot;: &quot;https://open.spotify.com/artist/107CG0UhUl9GJnPwF83N63&quot;
+                        },
+                        &quot;href&quot;: &quot;https://api.spotify.com/v1/artists/107CG0UhUl9GJnPwF83N63&quot;,
+                        &quot;id&quot;: &quot;107CG0UhUl9GJnPwF83N63&quot;,
+                        &quot;name&quot;: &quot;UPPERROOM&quot;,
+                        &quot;type&quot;: &quot;artist&quot;,
+                        &quot;uri&quot;: &quot;spotify:artist:107CG0UhUl9GJnPwF83N63&quot;
+                    }
+                ],
+                &quot;external_urls&quot;: {
+                    &quot;spotify&quot;: &quot;https://open.spotify.com/album/4bKpeGX4y9MZmzSYNnU4KC&quot;
+                },
+                &quot;href&quot;: &quot;https://api.spotify.com/v1/albums/4bKpeGX4y9MZmzSYNnU4KC&quot;,
+                &quot;id&quot;: &quot;4bKpeGX4y9MZmzSYNnU4KC&quot;,
+                &quot;images&quot;: [
+                    {
+                        &quot;height&quot;: 640,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d0000b2732223efd1699f4f559612f092&quot;,
+                        &quot;width&quot;: 640
+                    },
+                    {
+                        &quot;height&quot;: 300,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d00001e022223efd1699f4f559612f092&quot;,
+                        &quot;width&quot;: 300
+                    },
+                    {
+                        &quot;height&quot;: 64,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d000048512223efd1699f4f559612f092&quot;,
+                        &quot;width&quot;: 64
+                    }
+                ],
+                &quot;name&quot;: &quot;Moments&quot;,
+                &quot;release_date&quot;: &quot;2018-05-18&quot;,
+                &quot;release_date_precision&quot;: &quot;day&quot;,
+                &quot;total_tracks&quot;: 5,
+                &quot;type&quot;: &quot;album&quot;,
+                &quot;uri&quot;: &quot;spotify:album:4bKpeGX4y9MZmzSYNnU4KC&quot;
+            },
+            {
+                &quot;album_type&quot;: &quot;album&quot;,
+                &quot;artists&quot;: [
+                    {
+                        &quot;external_urls&quot;: {
+                            &quot;spotify&quot;: &quot;https://open.spotify.com/artist/107CG0UhUl9GJnPwF83N63&quot;
+                        },
+                        &quot;href&quot;: &quot;https://api.spotify.com/v1/artists/107CG0UhUl9GJnPwF83N63&quot;,
+                        &quot;id&quot;: &quot;107CG0UhUl9GJnPwF83N63&quot;,
+                        &quot;name&quot;: &quot;UPPERROOM&quot;,
+                        &quot;type&quot;: &quot;artist&quot;,
+                        &quot;uri&quot;: &quot;spotify:artist:107CG0UhUl9GJnPwF83N63&quot;
+                    }
+                ],
+                &quot;external_urls&quot;: {
+                    &quot;spotify&quot;: &quot;https://open.spotify.com/album/4OhRAM6ypyVkxEqO7wy4xt&quot;
+                },
+                &quot;href&quot;: &quot;https://api.spotify.com/v1/albums/4OhRAM6ypyVkxEqO7wy4xt&quot;,
+                &quot;id&quot;: &quot;4OhRAM6ypyVkxEqO7wy4xt&quot;,
+                &quot;images&quot;: [
+                    {
+                        &quot;height&quot;: 640,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d0000b273db85c3b2a498e2780977c4a7&quot;,
+                        &quot;width&quot;: 640
+                    },
+                    {
+                        &quot;height&quot;: 300,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d00001e02db85c3b2a498e2780977c4a7&quot;,
+                        &quot;width&quot;: 300
+                    },
+                    {
+                        &quot;height&quot;: 64,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d00004851db85c3b2a498e2780977c4a7&quot;,
+                        &quot;width&quot;: 64
+                    }
+                ],
+                &quot;name&quot;: &quot;To the One&quot;,
+                &quot;release_date&quot;: &quot;2019-02-22&quot;,
+                &quot;release_date_precision&quot;: &quot;day&quot;,
+                &quot;total_tracks&quot;: 9,
+                &quot;type&quot;: &quot;album&quot;,
+                &quot;uri&quot;: &quot;spotify:album:4OhRAM6ypyVkxEqO7wy4xt&quot;
+            },
+            {
+                &quot;album_type&quot;: &quot;album&quot;,
+                &quot;artists&quot;: [
+                    {
+                        &quot;external_urls&quot;: {
+                            &quot;spotify&quot;: &quot;https://open.spotify.com/artist/58UpHBCQ1Jj67DJsR7Qyqg&quot;
+                        },
+                        &quot;href&quot;: &quot;https://api.spotify.com/v1/artists/58UpHBCQ1Jj67DJsR7Qyqg&quot;,
+                        &quot;id&quot;: &quot;58UpHBCQ1Jj67DJsR7Qyqg&quot;,
+                        &quot;name&quot;: &quot;Uppermost&quot;,
+                        &quot;type&quot;: &quot;artist&quot;,
+                        &quot;uri&quot;: &quot;spotify:artist:58UpHBCQ1Jj67DJsR7Qyqg&quot;
+                    }
+                ],
+                &quot;external_urls&quot;: {
+                    &quot;spotify&quot;: &quot;https://open.spotify.com/album/43dPS1R03ZpY8h3FFzBqAy&quot;
+                },
+                &quot;href&quot;: &quot;https://api.spotify.com/v1/albums/43dPS1R03ZpY8h3FFzBqAy&quot;,
+                &quot;id&quot;: &quot;43dPS1R03ZpY8h3FFzBqAy&quot;,
+                &quot;images&quot;: [
+                    {
+                        &quot;height&quot;: 640,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d0000b27304bd40d6d6d3dd010f1ae28e&quot;,
+                        &quot;width&quot;: 640
+                    },
+                    {
+                        &quot;height&quot;: 300,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d00001e0204bd40d6d6d3dd010f1ae28e&quot;,
+                        &quot;width&quot;: 300
+                    },
+                    {
+                        &quot;height&quot;: 64,
+                        &quot;url&quot;: &quot;https://i.scdn.co/image/ab67616d0000485104bd40d6d6d3dd010f1ae28e&quot;,
+                        &quot;width&quot;: 64
+                    }
+                ],
+                &quot;name&quot;: &quot;Perseverance&quot;,
+                &quot;release_date&quot;: &quot;2018-03-23&quot;,
+                &quot;release_date_precision&quot;: &quot;day&quot;,
+                &quot;total_tracks&quot;: 14,
+                &quot;type&quot;: &quot;album&quot;,
+                &quot;uri&quot;: &quot;spotify:album:43dPS1R03ZpY8h3FFzBqAy&quot;
+            }
+        ],
+        &quot;limit&quot;: 20,
+        &quot;next&quot;: &quot;https://api.spotify.com/v1/search?query=Uppena&amp;type=album&amp;market=IN&amp;offset=20&amp;limit=20&quot;,
+        &quot;offset&quot;: 0,
+        &quot;previous&quot;: null,
+        &quot;total&quot;: 25
+    }
+}
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.7</a> at 23-May-2021, 10:54:33 AM</p>
+</div>
+</div>
+</body>
+</html>

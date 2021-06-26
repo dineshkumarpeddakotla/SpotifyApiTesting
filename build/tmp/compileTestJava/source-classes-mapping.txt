@@ -1,0 +1,10 @@
+com/spotifyapi/TestPlaylistAPi.java
+ com.spotifyapi.TestPlaylistAPi
+com/spotifyapi/TestUserProfileApi.java
+ com.spotifyapi.TestUserProfileApi
+com/spotifyapi/TestTrackApi.java
+ com.spotifyapi.TestTrackApi
+com/spotifyapi/TestShowsApi.java
+ com.spotifyapi.TestShowsApi
+com/spotifyapi/TestSearchApi.java
+ com.spotifyapi.TestSearchApi

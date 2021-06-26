@@ -1,0 +1,912 @@
+{
+    "albums": {
+i        "href": "https://api.spotify.com/v1/search?query=Uppena&type=album&market=IN&offset=0&limit=20",
+        "items": [
+            {
+'                "album_type": "album",
+                "artists": [
+                    {
++                        "external_urls": {
+`                            "spotify": "https://open.spotify.com/artist/5sSzCxHtgL82pYDvx2QyEU"
+                        },
+]                        "href": "https://api.spotify.com/v1/artists/5sSzCxHtgL82pYDvx2QyEU",
+8                        "id": "5sSzCxHtgL82pYDvx2QyEU",
+3                        "name": "Devi Sri Prasad",
+*                        "type": "artist",
+G                        "uri": "spotify:artist:5sSzCxHtgL82pYDvx2QyEU"
+                    }
+                ],
+#                "external_urls": {
+W                    "spotify": "https://open.spotify.com/album/4ug7KdJJ2CVG5fANdZbzHM"
+                },
+T                "href": "https://api.spotify.com/v1/albums/4ug7KdJJ2CVG5fANdZbzHM",
+0                "id": "4ug7KdJJ2CVG5fANdZbzHM",
+                "images": [
+                    {
+'                        "height": 640,
+c                        "url": "https://i.scdn.co/image/ab67616d0000b2730b39accb520c23c57eab5701",
+%                        "width": 640
+                    },
+                    {
+'                        "height": 300,
+c                        "url": "https://i.scdn.co/image/ab67616d00001e020b39accb520c23c57eab5701",
+%                        "width": 300
+                    },
+                    {
+&                        "height": 64,
+c                        "url": "https://i.scdn.co/image/ab67616d000048510b39accb520c23c57eab5701",
+$                        "width": 64
+                    }
+                ],
+"                "name": "Uppena",
+.                "release_date": "2021-02-18",
+1                "release_date_precision": "day",
+#                "total_tracks": 8,
+!                "type": "album",
+>                "uri": "spotify:album:4ug7KdJJ2CVG5fANdZbzHM"
+            },
+            {
+(                "album_type": "single",
+                "artists": [
+                    {
++                        "external_urls": {
+`                            "spotify": "https://open.spotify.com/artist/5sSzCxHtgL82pYDvx2QyEU"
+                        },
+]                        "href": "https://api.spotify.com/v1/artists/5sSzCxHtgL82pYDvx2QyEU",
+8                        "id": "5sSzCxHtgL82pYDvx2QyEU",
+3                        "name": "Devi Sri Prasad",
+*                        "type": "artist",
+G                        "uri": "spotify:artist:5sSzCxHtgL82pYDvx2QyEU"
+                    }
+                ],
+#                "external_urls": {
+W                    "spotify": "https://open.spotify.com/album/0cpn4u9Todg0wNbQFUmQVy"
+                },
+T                "href": "https://api.spotify.com/v1/albums/0cpn4u9Todg0wNbQFUmQVy",
+0                "id": "0cpn4u9Todg0wNbQFUmQVy",
+                "images": [
+                    {
+'                        "height": 640,
+c                        "url": "https://i.scdn.co/image/ab67616d0000b273b6664d328d9733c3cd095533",
+%                        "width": 640
+                    },
+                    {
+'                        "height": 300,
+c                        "url": "https://i.scdn.co/image/ab67616d00001e02b6664d328d9733c3cd095533",
+%                        "width": 300
+                    },
+                    {
+&                        "height": 64,
+c                        "url": "https://i.scdn.co/image/ab67616d00004851b6664d328d9733c3cd095533",
+$                        "width": 64
+                    }
+                ],
+"                "name": "Uppena",
+.                "release_date": "2021-01-31",
+1                "release_date_precision": "day",
+#                "total_tracks": 1,
+!                "type": "album",
+>                "uri": "spotify:album:0cpn4u9Todg0wNbQFUmQVy"
+            },
+            {
+(                "album_type": "single",
+                "artists": [
+                    {
++                        "external_urls": {
+`                            "spotify": "https://open.spotify.com/artist/2oSONSC9zQ4UonDKnLqksx"
+                        },
+]                        "href": "https://api.spotify.com/v1/artists/2oSONSC9zQ4UonDKnLqksx",
+8                        "id": "2oSONSC9zQ4UonDKnLqksx",
+.                        "name": "Atif Aslam",
+*                        "type": "artist",
+G                        "uri": "spotify:artist:2oSONSC9zQ4UonDKnLqksx"
+                    },
+                    {
++                        "external_urls": {
+`                            "spotify": "https://open.spotify.com/artist/7DcUua74PM7MmBljTTjIyy"
+                        },
+]                        "href": "https://api.spotify.com/v1/artists/7DcUua74PM7MmBljTTjIyy",
+8                        "id": "7DcUua74PM7MmBljTTjIyy",
+0                        "name": "Shiraz Uppal",
+*                        "type": "artist",
+G                        "uri": "spotify:artist:7DcUua74PM7MmBljTTjIyy"
+                    }
+                ],
+#                "external_urls": {
+W                    "spotify": "https://open.spotify.com/album/5pAPEuGi48iywzO2NT5Ddt"
+                },
+T                "href": "https://api.spotify.com/v1/albums/5pAPEuGi48iywzO2NT5Ddt",
+0                "id": "5pAPEuGi48iywzO2NT5Ddt",
+                "images": [
+                    {
+'                        "height": 640,
+c                        "url": "https://i.scdn.co/image/ab67616d0000b273afd2bc3f876235be94c0d36d",
+%                        "width": 640
+                    },
+                    {
+'                        "height": 300,
+c                        "url": "https://i.scdn.co/image/ab67616d00001e02afd2bc3f876235be94c0d36d",
+%                        "width": 300
+                    },
+                    {
+&                        "height": 64,
+c                        "url": "https://i.scdn.co/image/ab67616d00004851afd2bc3f876235be94c0d36d",
+$                        "width": 64
+                    }
+                ],
+&                "name": "Pehli Dafa",
+.                "release_date": "2017-01-06",
+1                "release_date_precision": "day",
+#                "total_tracks": 1,
+!                "type": "album",
+>                "uri": "spotify:album:5pAPEuGi48iywzO2NT5Ddt"
+            },
+            {
+(                "album_type": "single",
+                "artists": [
+                    {
++                        "external_urls": {
+`                            "spotify": "https://open.spotify.com/artist/5sSzCxHtgL82pYDvx2QyEU"
+                        },
+]                        "href": "https://api.spotify.com/v1/artists/5sSzCxHtgL82pYDvx2QyEU",
+8                        "id": "5sSzCxHtgL82pYDvx2QyEU",
+3                        "name": "Devi Sri Prasad",
+*                        "type": "artist",
+G                        "uri": "spotify:artist:5sSzCxHtgL82pYDvx2QyEU"
+                    }
+                ],
+#                "external_urls": {
+W                    "spotify": "https://open.spotify.com/album/0vHE0cmA8orbBgzIWz9T3D"
+                },
+T                "href": "https://api.spotify.com/v1/albums/0vHE0cmA8orbBgzIWz9T3D",
+0                "id": "0vHE0cmA8orbBgzIWz9T3D",
+                "images": [
+                    {
+'                        "height": 640,
+c                        "url": "https://i.scdn.co/image/ab67616d0000b27317e013ccb50703f3e9bcf1d8",
+%                        "width": 640
+                    },
+                    {
+'                        "height": 300,
+c                        "url": "https://i.scdn.co/image/ab67616d00001e0217e013ccb50703f3e9bcf1d8",
+%                        "width": 300
+                    },
+                    {
+&                        "height": 64,
+c                        "url": "https://i.scdn.co/image/ab67616d0000485117e013ccb50703f3e9bcf1d8",
+$                        "width": 64
+                    }
+                ],
+"                "name": "Uppena",
+.                "release_date": "2020-03-02",
+1                "release_date_precision": "day",
+#                "total_tracks": 1,
+!                "type": "album",
+>                "uri": "spotify:album:0vHE0cmA8orbBgzIWz9T3D"
+            },
+            {
+(                "album_type": "single",
+                "artists": [
+                    {
++                        "external_urls": {
+`                            "spotify": "https://open.spotify.com/artist/3xSxDireyobIryR5nIaHa0"
+                        },
+]                        "href": "https://api.spotify.com/v1/artists/3xSxDireyobIryR5nIaHa0",
+8                        "id": "3xSxDireyobIryR5nIaHa0",
+.                        "name": "Guru Kiran",
+*                        "type": "artist",
+G                        "uri": "spotify:artist:3xSxDireyobIryR5nIaHa0"
+                    }
+                ],
+#                "external_urls": {
+W                    "spotify": "https://open.spotify.com/album/34iJ9b445VsiXQLSZcCn4J"
+                },
+T                "href": "https://api.spotify.com/v1/albums/34iJ9b445VsiXQLSZcCn4J",
+0                "id": "34iJ9b445VsiXQLSZcCn4J",
+                "images": [
+                    {
+'                        "height": 640,
+c                        "url": "https://i.scdn.co/image/ab67616d0000b27313941fd45da2e6ed4f9b43e4",
+%                        "width": 640
+                    },
+                    {
+'                        "height": 300,
+c                        "url": "https://i.scdn.co/image/ab67616d00001e0213941fd45da2e6ed4f9b43e4",
+%                        "width": 300
+                    },
+                    {
+&                        "height": 64,
+c                        "url": "https://i.scdn.co/image/ab67616d0000485113941fd45da2e6ed4f9b43e4",
+$                        "width": 64
+                    }
+                ],
+                "name": "A",
+.                "release_date": "2014-08-01",
+1                "release_date_precision": "day",
+#                "total_tracks": 5,
+!                "type": "album",
+>                "uri": "spotify:album:34iJ9b445VsiXQLSZcCn4J"
+            },
+            {
+(                "album_type": "single",
+                "artists": [
+                    {
++                        "external_urls": {
+`                            "spotify": "https://open.spotify.com/artist/5sSzCxHtgL82pYDvx2QyEU"
+                        },
+]                        "href": "https://api.spotify.com/v1/artists/5sSzCxHtgL82pYDvx2QyEU",
+8                        "id": "5sSzCxHtgL82pYDvx2QyEU",
+3                        "name": "Devi Sri Prasad",
+*                        "type": "artist",
+G                        "uri": "spotify:artist:5sSzCxHtgL82pYDvx2QyEU"
+                    }
+                ],
+#                "external_urls": {
+W                    "spotify": "https://open.spotify.com/album/6xKbqQmgpCG4KB4gqtTC2T"
+                },
+T                "href": "https://api.spotify.com/v1/albums/6xKbqQmgpCG4KB4gqtTC2T",
+0                "id": "6xKbqQmgpCG4KB4gqtTC2T",
+                "images": [
+                    {
+'                        "height": 640,
+c                        "url": "https://i.scdn.co/image/ab67616d0000b27335647eb63d67cb1c2b108762",
+%                        "width": 640
+                    },
+                    {
+'                        "height": 300,
+c                        "url": "https://i.scdn.co/image/ab67616d00001e0235647eb63d67cb1c2b108762",
+%                        "width": 300
+                    },
+                    {
+&                        "height": 64,
+c                        "url": "https://i.scdn.co/image/ab67616d0000485135647eb63d67cb1c2b108762",
+$                        "width": 64
+                    }
+                ],
+"                "name": "Uppena",
+.                "release_date": "2020-11-11",
+1                "release_date_precision": "day",
+#                "total_tracks": 1,
+!                "type": "album",
+>                "uri": "spotify:album:6xKbqQmgpCG4KB4gqtTC2T"
+            },
+            {
+'                "album_type": "album",
+                "artists": [
+                    {
++                        "external_urls": {
+`                            "spotify": "https://open.spotify.com/artist/58r1rB5t3VF5X6yXGPequV"
+                        },
+]                        "href": "https://api.spotify.com/v1/artists/58r1rB5t3VF5X6yXGPequV",
+8                        "id": "58r1rB5t3VF5X6yXGPequV",
+7                        "name": "Maverick City Music",
+*                        "type": "artist",
+G                        "uri": "spotify:artist:58r1rB5t3VF5X6yXGPequV"
+                    },
+                    {
++                        "external_urls": {
+`                            "spotify": "https://open.spotify.com/artist/107CG0UhUl9GJnPwF83N63"
+                        },
+]                        "href": "https://api.spotify.com/v1/artists/107CG0UhUl9GJnPwF83N63",
+8                        "id": "107CG0UhUl9GJnPwF83N63",
+-                        "name": "UPPERROOM",
+*                        "type": "artist",
+G                        "uri": "spotify:artist:107CG0UhUl9GJnPwF83N63"
+                    }
+                ],
+#                "external_urls": {
+W                    "spotify": "https://open.spotify.com/album/2rOZswj1Kdxl7mQgVeqjNq"
+                },
+T                "href": "https://api.spotify.com/v1/albums/2rOZswj1Kdxl7mQgVeqjNq",
+0                "id": "2rOZswj1Kdxl7mQgVeqjNq",
+                "images": [
+                    {
+'                        "height": 640,
+c                        "url": "https://i.scdn.co/image/ab67616d0000b27347de3848168a18b4f4b2a283",
+%                        "width": 640
+                    },
+                    {
+'                        "height": 300,
+c                        "url": "https://i.scdn.co/image/ab67616d00001e0247de3848168a18b4f4b2a283",
+%                        "width": 300
+                    },
+                    {
+&                        "height": 64,
+c                        "url": "https://i.scdn.co/image/ab67616d0000485147de3848168a18b4f4b2a283",
+$                        "width": 64
+                    }
+                ],
++                "name": "Move Your Heart",
+.                "release_date": "2021-01-29",
+1                "release_date_precision": "day",
+#                "total_tracks": 7,
+!                "type": "album",
+>                "uri": "spotify:album:2rOZswj1Kdxl7mQgVeqjNq"
+            },
+            {
+(                "album_type": "single",
+                "artists": [
+                    {
++                        "external_urls": {
+`                            "spotify": "https://open.spotify.com/artist/5sSzCxHtgL82pYDvx2QyEU"
+                        },
+]                        "href": "https://api.spotify.com/v1/artists/5sSzCxHtgL82pYDvx2QyEU",
+8                        "id": "5sSzCxHtgL82pYDvx2QyEU",
+3                        "name": "Devi Sri Prasad",
+*                        "type": "artist",
+G                        "uri": "spotify:artist:5sSzCxHtgL82pYDvx2QyEU"
+                    }
+                ],
+#                "external_urls": {
+W                    "spotify": "https://open.spotify.com/album/1Ns97dsPOWTSm1YJUkEMb7"
+                },
+T                "href": "https://api.spotify.com/v1/albums/1Ns97dsPOWTSm1YJUkEMb7",
+0                "id": "1Ns97dsPOWTSm1YJUkEMb7",
+                "images": [
+                    {
+'                        "height": 640,
+c                        "url": "https://i.scdn.co/image/ab67616d0000b273939b3d2b9147398a393dc19c",
+%                        "width": 640
+                    },
+                    {
+'                        "height": 300,
+c                        "url": "https://i.scdn.co/image/ab67616d00001e02939b3d2b9147398a393dc19c",
+%                        "width": 300
+                    },
+                    {
+&                        "height": 64,
+c                        "url": "https://i.scdn.co/image/ab67616d00004851939b3d2b9147398a393dc19c",
+$                        "width": 64
+                    }
+                ],
+"                "name": "Uppena",
+.                "release_date": "2021-02-06",
+1                "release_date_precision": "day",
+#                "total_tracks": 1,
+!                "type": "album",
+>                "uri": "spotify:album:1Ns97dsPOWTSm1YJUkEMb7"
+            },
+            {
+(                "album_type": "single",
+                "artists": [
+                    {
++                        "external_urls": {
+`                            "spotify": "https://open.spotify.com/artist/2gmPDpR4396fHMXsV1jWbH"
+                        },
+]                        "href": "https://api.spotify.com/v1/artists/2gmPDpR4396fHMXsV1jWbH",
+8                        "id": "2gmPDpR4396fHMXsV1jWbH",
++                        "name": "Upendra",
+*                        "type": "artist",
+G                        "uri": "spotify:artist:2gmPDpR4396fHMXsV1jWbH"
+                    }
+                ],
+#                "external_urls": {
+W                    "spotify": "https://open.spotify.com/album/0TgTlx6ijcMB6O8wpIpkU0"
+                },
+T                "href": "https://api.spotify.com/v1/albums/0TgTlx6ijcMB6O8wpIpkU0",
+0                "id": "0TgTlx6ijcMB6O8wpIpkU0",
+                "images": [
+                    {
+'                        "height": 640,
+c                        "url": "https://i.scdn.co/image/ab67616d0000b27377d7f48f1761a33d88d00394",
+%                        "width": 640
+                    },
+                    {
+'                        "height": 300,
+c                        "url": "https://i.scdn.co/image/ab67616d00001e0277d7f48f1761a33d88d00394",
+%                        "width": 300
+                    },
+                    {
+&                        "height": 64,
+c                        "url": "https://i.scdn.co/image/ab67616d0000485177d7f48f1761a33d88d00394",
+$                        "width": 64
+                    }
+                ],
+*                "name": "Mukunda Murari",
+.                "release_date": "2016-10-16",
+1                "release_date_precision": "day",
+#                "total_tracks": 5,
+!                "type": "album",
+>                "uri": "spotify:album:0TgTlx6ijcMB6O8wpIpkU0"
+            },
+            {
+(                "album_type": "single",
+                "artists": [
+                    {
++                        "external_urls": {
+`                            "spotify": "https://open.spotify.com/artist/5sSzCxHtgL82pYDvx2QyEU"
+                        },
+]                        "href": "https://api.spotify.com/v1/artists/5sSzCxHtgL82pYDvx2QyEU",
+8                        "id": "5sSzCxHtgL82pYDvx2QyEU",
+3                        "name": "Devi Sri Prasad",
+*                        "type": "artist",
+G                        "uri": "spotify:artist:5sSzCxHtgL82pYDvx2QyEU"
+                    }
+                ],
+#                "external_urls": {
+W                    "spotify": "https://open.spotify.com/album/1RPiYyDIrhTMvxYtTsKR8Z"
+                },
+T                "href": "https://api.spotify.com/v1/albums/1RPiYyDIrhTMvxYtTsKR8Z",
+0                "id": "1RPiYyDIrhTMvxYtTsKR8Z",
+                "images": [
+                    {
+'                        "height": 640,
+c                        "url": "https://i.scdn.co/image/ab67616d0000b2732fa4bdcc685d0bb72b9cf072",
+%                        "width": 640
+                    },
+                    {
+'                        "height": 300,
+c                        "url": "https://i.scdn.co/image/ab67616d00001e022fa4bdcc685d0bb72b9cf072",
+%                        "width": 300
+                    },
+                    {
+&                        "height": 64,
+c                        "url": "https://i.scdn.co/image/ab67616d000048512fa4bdcc685d0bb72b9cf072",
+$                        "width": 64
+                    }
+                ],
+"                "name": "Uppena",
+.                "release_date": "2021-01-20",
+1                "release_date_precision": "day",
+#                "total_tracks": 1,
+!                "type": "album",
+>                "uri": "spotify:album:1RPiYyDIrhTMvxYtTsKR8Z"
+            },
+            {
+(                "album_type": "single",
+                "artists": [
+                    {
++                        "external_urls": {
+`                            "spotify": "https://open.spotify.com/artist/2gmPDpR4396fHMXsV1jWbH"
+                        },
+]                        "href": "https://api.spotify.com/v1/artists/2gmPDpR4396fHMXsV1jWbH",
+8                        "id": "2gmPDpR4396fHMXsV1jWbH",
++                        "name": "Upendra",
+*                        "type": "artist",
+G                        "uri": "spotify:artist:2gmPDpR4396fHMXsV1jWbH"
+                    },
+                    {
++                        "external_urls": {
+`                            "spotify": "https://open.spotify.com/artist/2hEZEgzGbHSTc4Kfu975bw"
+                        },
+]                        "href": "https://api.spotify.com/v1/artists/2hEZEgzGbHSTc4Kfu975bw",
+8                        "id": "2hEZEgzGbHSTc4Kfu975bw",
+4                        "name": "Deepika Padukone",
+*                        "type": "artist",
+G                        "uri": "spotify:artist:2hEZEgzGbHSTc4Kfu975bw"
+                    }
+                ],
+#                "external_urls": {
+W                    "spotify": "https://open.spotify.com/album/3qlotPHpAYPxsho9wXkFBs"
+                },
+T                "href": "https://api.spotify.com/v1/albums/3qlotPHpAYPxsho9wXkFBs",
+0                "id": "3qlotPHpAYPxsho9wXkFBs",
+                "images": [
+                    {
+'                        "height": 640,
+c                        "url": "https://i.scdn.co/image/ab67616d0000b273f6dc39befc3aa4de0b530c88",
+%                        "width": 640
+                    },
+                    {
+'                        "height": 300,
+c                        "url": "https://i.scdn.co/image/ab67616d00001e02f6dc39befc3aa4de0b530c88",
+%                        "width": 300
+                    },
+                    {
+&                        "height": 64,
+c                        "url": "https://i.scdn.co/image/ab67616d00004851f6dc39befc3aa4de0b530c88",
+$                        "width": 64
+                    }
+                ],
+%                "name": "Aishwarya",
+.                "release_date": "2006-08-15",
+1                "release_date_precision": "day",
+#                "total_tracks": 6,
+!                "type": "album",
+>                "uri": "spotify:album:3qlotPHpAYPxsho9wXkFBs"
+            },
+            {
+'                "album_type": "album",
+                "artists": [
+                    {
++                        "external_urls": {
+`                            "spotify": "https://open.spotify.com/artist/4f0v5RzUksKaYf3GVvYZjP"
+                        },
+]                        "href": "https://api.spotify.com/v1/artists/4f0v5RzUksKaYf3GVvYZjP",
+8                        "id": "4f0v5RzUksKaYf3GVvYZjP",
+4                        "name": "Dr. Asher Andrew",
+*                        "type": "artist",
+G                        "uri": "spotify:artist:4f0v5RzUksKaYf3GVvYZjP"
+                    }
+                ],
+#                "external_urls": {
+W                    "spotify": "https://open.spotify.com/album/4pwhzPdI1iLgatyhYZUPoV"
+                },
+T                "href": "https://api.spotify.com/v1/albums/4pwhzPdI1iLgatyhYZUPoV",
+0                "id": "4pwhzPdI1iLgatyhYZUPoV",
+                "images": [
+                    {
+'                        "height": 640,
+c                        "url": "https://i.scdn.co/image/ab67616d0000b2739082638b498204bac885b1eb",
+%                        "width": 640
+                    },
+                    {
+'                        "height": 300,
+c                        "url": "https://i.scdn.co/image/ab67616d00001e029082638b498204bac885b1eb",
+%                        "width": 300
+                    },
+                    {
+&                        "height": 64,
+c                        "url": "https://i.scdn.co/image/ab67616d000048519082638b498204bac885b1eb",
+$                        "width": 64
+                    }
+                ],
++                "name": "Uppenai Regenaa",
+.                "release_date": "2019-03-16",
+1                "release_date_precision": "day",
+#                "total_tracks": 7,
+!                "type": "album",
+>                "uri": "spotify:album:4pwhzPdI1iLgatyhYZUPoV"
+            },
+            {
+'                "album_type": "album",
+                "artists": [
+                    {
++                        "external_urls": {
+`                            "spotify": "https://open.spotify.com/artist/58r1rB5t3VF5X6yXGPequV"
+                        },
+]                        "href": "https://api.spotify.com/v1/artists/58r1rB5t3VF5X6yXGPequV",
+8                        "id": "58r1rB5t3VF5X6yXGPequV",
+7                        "name": "Maverick City Music",
+*                        "type": "artist",
+G                        "uri": "spotify:artist:58r1rB5t3VF5X6yXGPequV"
+                    },
+                    {
++                        "external_urls": {
+`                            "spotify": "https://open.spotify.com/artist/107CG0UhUl9GJnPwF83N63"
+                        },
+]                        "href": "https://api.spotify.com/v1/artists/107CG0UhUl9GJnPwF83N63",
+8                        "id": "107CG0UhUl9GJnPwF83N63",
+-                        "name": "UPPERROOM",
+*                        "type": "artist",
+G                        "uri": "spotify:artist:107CG0UhUl9GJnPwF83N63"
+                    }
+                ],
+#                "external_urls": {
+W                    "spotify": "https://open.spotify.com/album/5Rwg9WSled5jya2XlUfFSN"
+                },
+T                "href": "https://api.spotify.com/v1/albums/5Rwg9WSled5jya2XlUfFSN",
+0                "id": "5Rwg9WSled5jya2XlUfFSN",
+                "images": [
+                    {
+'                        "height": 640,
+c                        "url": "https://i.scdn.co/image/ab67616d0000b2739a43c1b659c4436a689f30aa",
+%                        "width": 640
+                    },
+                    {
+'                        "height": 300,
+c                        "url": "https://i.scdn.co/image/ab67616d00001e029a43c1b659c4436a689f30aa",
+%                        "width": 300
+                    },
+                    {
+&                        "height": 64,
+c                        "url": "https://i.scdn.co/image/ab67616d000048519a43c1b659c4436a689f30aa",
+$                        "width": 64
+                    }
+                ],
+4                "name": "You Hold It All Together",
+.                "release_date": "2020-11-20",
+1                "release_date_precision": "day",
+#                "total_tracks": 8,
+!                "type": "album",
+>                "uri": "spotify:album:5Rwg9WSled5jya2XlUfFSN"
+            },
+            {
+'                "album_type": "album",
+                "artists": [
+                    {
++                        "external_urls": {
+`                            "spotify": "https://open.spotify.com/artist/6BOARM09ZGU5fRNT54e4r0"
+                        },
+]                        "href": "https://api.spotify.com/v1/artists/6BOARM09ZGU5fRNT54e4r0",
+8                        "id": "6BOARM09ZGU5fRNT54e4r0",
+0                        "name": "Sadhu Kokila",
+*                        "type": "artist",
+G                        "uri": "spotify:artist:6BOARM09ZGU5fRNT54e4r0"
+                    }
+                ],
+#                "external_urls": {
+W                    "spotify": "https://open.spotify.com/album/2w0ELejg3PPwe3TXW4rPWg"
+                },
+T                "href": "https://api.spotify.com/v1/albums/2w0ELejg3PPwe3TXW4rPWg",
+0                "id": "2w0ELejg3PPwe3TXW4rPWg",
+                "images": [
+                    {
+'                        "height": 640,
+c                        "url": "https://i.scdn.co/image/ab67616d0000b27362c6d6f9684af32ca7a1aa3d",
+%                        "width": 640
+                    },
+                    {
+'                        "height": 300,
+c                        "url": "https://i.scdn.co/image/ab67616d00001e0262c6d6f9684af32ca7a1aa3d",
+%                        "width": 300
+                    },
+                    {
+&                        "height": 64,
+c                        "url": "https://i.scdn.co/image/ab67616d0000485162c6d6f9684af32ca7a1aa3d",
+$                        "width": 64
+                    }
+                ],
++                "name": "Raktha Kanneeru",
+.                "release_date": "2003-08-11",
+1                "release_date_precision": "day",
+#                "total_tracks": 6,
+!                "type": "album",
+>                "uri": "spotify:album:2w0ELejg3PPwe3TXW4rPWg"
+            },
+            {
+(                "album_type": "single",
+                "artists": [
+                    {
++                        "external_urls": {
+`                            "spotify": "https://open.spotify.com/artist/1dyi4oQFztH4zYxH4ywRpz"
+                        },
+]                        "href": "https://api.spotify.com/v1/artists/1dyi4oQFztH4zYxH4ywRpz",
+8                        "id": "1dyi4oQFztH4zYxH4ywRpz",
+0                        "name": "Upendra Rana",
+*                        "type": "artist",
+G                        "uri": "spotify:artist:1dyi4oQFztH4zYxH4ywRpz"
+                    }
+                ],
+#                "external_urls": {
+W                    "spotify": "https://open.spotify.com/album/7azSusgjqZkpVxXApSY837"
+                },
+T                "href": "https://api.spotify.com/v1/albums/7azSusgjqZkpVxXApSY837",
+0                "id": "7azSusgjqZkpVxXApSY837",
+                "images": [
+                    {
+'                        "height": 640,
+c                        "url": "https://i.scdn.co/image/ab67616d0000b273eef5a51f8ea9d559facb2cd0",
+%                        "width": 640
+                    },
+                    {
+'                        "height": 300,
+c                        "url": "https://i.scdn.co/image/ab67616d00001e02eef5a51f8ea9d559facb2cd0",
+%                        "width": 300
+                    },
+                    {
+&                        "height": 64,
+c                        "url": "https://i.scdn.co/image/ab67616d00004851eef5a51f8ea9d559facb2cd0",
+$                        "width": 64
+                    }
+                ],
+0                "name": "Hum Thakur Superstar",
+.                "release_date": "2021-01-21",
+1                "release_date_precision": "day",
+#                "total_tracks": 1,
+!                "type": "album",
+>                "uri": "spotify:album:7azSusgjqZkpVxXApSY837"
+            },
+            {
+'                "album_type": "album",
+                "artists": [
+                    {
++                        "external_urls": {
+`                            "spotify": "https://open.spotify.com/artist/58UpHBCQ1Jj67DJsR7Qyqg"
+                        },
+]                        "href": "https://api.spotify.com/v1/artists/58UpHBCQ1Jj67DJsR7Qyqg",
+8                        "id": "58UpHBCQ1Jj67DJsR7Qyqg",
+-                        "name": "Uppermost",
+*                        "type": "artist",
+G                        "uri": "spotify:artist:58UpHBCQ1Jj67DJsR7Qyqg"
+                    }
+                ],
+#                "external_urls": {
+W                    "spotify": "https://open.spotify.com/album/5vbwjHvR5pxz6XFalG1xgq"
+                },
+T                "href": "https://api.spotify.com/v1/albums/5vbwjHvR5pxz6XFalG1xgq",
+0                "id": "5vbwjHvR5pxz6XFalG1xgq",
+                "images": [
+                    {
+'                        "height": 640,
+c                        "url": "https://i.scdn.co/image/ab67616d0000b273761d333503de1812f39a2286",
+%                        "width": 640
+                    },
+                    {
+'                        "height": 300,
+c                        "url": "https://i.scdn.co/image/ab67616d00001e02761d333503de1812f39a2286",
+%                        "width": 300
+                    },
+                    {
+&                        "height": 64,
+c                        "url": "https://i.scdn.co/image/ab67616d00004851761d333503de1812f39a2286",
+$                        "width": 64
+                    }
+                ],
+/                "name": "Origins (2011-2016)",
+.                "release_date": "2017-02-10",
+1                "release_date_precision": "day",
+$                "total_tracks": 23,
+!                "type": "album",
+>                "uri": "spotify:album:5vbwjHvR5pxz6XFalG1xgq"
+            },
+            {
+'                "album_type": "album",
+                "artists": [
+                    {
++                        "external_urls": {
+`                            "spotify": "https://open.spotify.com/artist/107CG0UhUl9GJnPwF83N63"
+                        },
+]                        "href": "https://api.spotify.com/v1/artists/107CG0UhUl9GJnPwF83N63",
+8                        "id": "107CG0UhUl9GJnPwF83N63",
+-                        "name": "UPPERROOM",
+*                        "type": "artist",
+G                        "uri": "spotify:artist:107CG0UhUl9GJnPwF83N63"
+                    }
+                ],
+#                "external_urls": {
+W                    "spotify": "https://open.spotify.com/album/4CVXOAkmstbNySWmp5LXIx"
+                },
+T                "href": "https://api.spotify.com/v1/albums/4CVXOAkmstbNySWmp5LXIx",
+0                "id": "4CVXOAkmstbNySWmp5LXIx",
+                "images": [
+                    {
+'                        "height": 640,
+c                        "url": "https://i.scdn.co/image/ab67616d0000b273e00e4a31275ea864ff64e0ce",
+%                        "width": 640
+                    },
+                    {
+'                        "height": 300,
+c                        "url": "https://i.scdn.co/image/ab67616d00001e02e00e4a31275ea864ff64e0ce",
+%                        "width": 300
+                    },
+                    {
+&                        "height": 64,
+c                        "url": "https://i.scdn.co/image/ab67616d00004851e00e4a31275ea864ff64e0ce",
+$                        "width": 64
+                    }
+                ],
+5                "name": "Land of the Living (Live)",
+.                "release_date": "2020-03-20",
+1                "release_date_precision": "day",
+$                "total_tracks": 10,
+!                "type": "album",
+>                "uri": "spotify:album:4CVXOAkmstbNySWmp5LXIx"
+            },
+            {
+'                "album_type": "album",
+                "artists": [
+                    {
++                        "external_urls": {
+`                            "spotify": "https://open.spotify.com/artist/107CG0UhUl9GJnPwF83N63"
+                        },
+]                        "href": "https://api.spotify.com/v1/artists/107CG0UhUl9GJnPwF83N63",
+8                        "id": "107CG0UhUl9GJnPwF83N63",
+-                        "name": "UPPERROOM",
+*                        "type": "artist",
+G                        "uri": "spotify:artist:107CG0UhUl9GJnPwF83N63"
+                    }
+                ],
+#                "external_urls": {
+W                    "spotify": "https://open.spotify.com/album/4bKpeGX4y9MZmzSYNnU4KC"
+                },
+T                "href": "https://api.spotify.com/v1/albums/4bKpeGX4y9MZmzSYNnU4KC",
+0                "id": "4bKpeGX4y9MZmzSYNnU4KC",
+                "images": [
+                    {
+'                        "height": 640,
+c                        "url": "https://i.scdn.co/image/ab67616d0000b2732223efd1699f4f559612f092",
+%                        "width": 640
+                    },
+                    {
+'                        "height": 300,
+c                        "url": "https://i.scdn.co/image/ab67616d00001e022223efd1699f4f559612f092",
+%                        "width": 300
+                    },
+                    {
+&                        "height": 64,
+c                        "url": "https://i.scdn.co/image/ab67616d000048512223efd1699f4f559612f092",
+$                        "width": 64
+                    }
+                ],
+#                "name": "Moments",
+.                "release_date": "2018-05-18",
+1                "release_date_precision": "day",
+#                "total_tracks": 5,
+!                "type": "album",
+>                "uri": "spotify:album:4bKpeGX4y9MZmzSYNnU4KC"
+            },
+            {
+'                "album_type": "album",
+                "artists": [
+                    {
++                        "external_urls": {
+`                            "spotify": "https://open.spotify.com/artist/107CG0UhUl9GJnPwF83N63"
+                        },
+]                        "href": "https://api.spotify.com/v1/artists/107CG0UhUl9GJnPwF83N63",
+8                        "id": "107CG0UhUl9GJnPwF83N63",
+-                        "name": "UPPERROOM",
+*                        "type": "artist",
+G                        "uri": "spotify:artist:107CG0UhUl9GJnPwF83N63"
+                    }
+                ],
+#                "external_urls": {
+W                    "spotify": "https://open.spotify.com/album/4OhRAM6ypyVkxEqO7wy4xt"
+                },
+T                "href": "https://api.spotify.com/v1/albums/4OhRAM6ypyVkxEqO7wy4xt",
+0                "id": "4OhRAM6ypyVkxEqO7wy4xt",
+                "images": [
+                    {
+'                        "height": 640,
+c                        "url": "https://i.scdn.co/image/ab67616d0000b273db85c3b2a498e2780977c4a7",
+%                        "width": 640
+                    },
+                    {
+'                        "height": 300,
+c                        "url": "https://i.scdn.co/image/ab67616d00001e02db85c3b2a498e2780977c4a7",
+%                        "width": 300
+                    },
+                    {
+&                        "height": 64,
+c                        "url": "https://i.scdn.co/image/ab67616d00004851db85c3b2a498e2780977c4a7",
+$                        "width": 64
+                    }
+                ],
+&                "name": "To the One",
+.                "release_date": "2019-02-22",
+1                "release_date_precision": "day",
+#                "total_tracks": 9,
+!                "type": "album",
+>                "uri": "spotify:album:4OhRAM6ypyVkxEqO7wy4xt"
+            },
+            {
+'                "album_type": "album",
+                "artists": [
+                    {
++                        "external_urls": {
+`                            "spotify": "https://open.spotify.com/artist/58UpHBCQ1Jj67DJsR7Qyqg"
+                        },
+]                        "href": "https://api.spotify.com/v1/artists/58UpHBCQ1Jj67DJsR7Qyqg",
+8                        "id": "58UpHBCQ1Jj67DJsR7Qyqg",
+-                        "name": "Uppermost",
+*                        "type": "artist",
+G                        "uri": "spotify:artist:58UpHBCQ1Jj67DJsR7Qyqg"
+                    }
+                ],
+#                "external_urls": {
+W                    "spotify": "https://open.spotify.com/album/43dPS1R03ZpY8h3FFzBqAy"
+                },
+T                "href": "https://api.spotify.com/v1/albums/43dPS1R03ZpY8h3FFzBqAy",
+0                "id": "43dPS1R03ZpY8h3FFzBqAy",
+                "images": [
+                    {
+'                        "height": 640,
+c                        "url": "https://i.scdn.co/image/ab67616d0000b27304bd40d6d6d3dd010f1ae28e",
+%                        "width": 640
+                    },
+                    {
+'                        "height": 300,
+c                        "url": "https://i.scdn.co/image/ab67616d00001e0204bd40d6d6d3dd010f1ae28e",
+%                        "width": 300
+                    },
+                    {
+&                        "height": 64,
+c                        "url": "https://i.scdn.co/image/ab67616d0000485104bd40d6d6d3dd010f1ae28e",
+$                        "width": 64
+                    }
+                ],
+(                "name": "Perseverance",
+.                "release_date": "2018-03-23",
+1                "release_date_precision": "day",
+$                "total_tracks": 14,
+!                "type": "album",
+>                "uri": "spotify:album:43dPS1R03ZpY8h3FFzBqAy"
+            }
+        ],
+        "limit": 20,
+j        "next": "https://api.spotify.com/v1/search?query=Uppena&type=album&market=IN&offset=20&limit=20",
+        "offset": 0,
+        "previous": null,
+        "total": 25
+    }
+}
