@@ -1,5 +1,5 @@
 /*
- Purpose : Program for Test Cases is Written to Test Spotify User Profile Api
+ Purpose : Program for Test Cases is Written to Test Spotify Api
  @author Dinesh Kumar Peddakotla
  @since 23-05-2021
 */
@@ -372,7 +372,7 @@ public class TestSpotifyApi {
      * for GET operation
      */
     @Test
-    public void test_WhenGetAListOf_CurrentUsers_Playlist_ShouldReturn_StatusCode200() {
+    public void testGet_AListOf_CurrentUsers_Playlist_ShouldReturn_StatusCode200() {
         Response response = given().queryParam("limit", 5)
                                    .queryParam("offset", 6)
                                    .contentType(ContentType.JSON)
@@ -389,7 +389,7 @@ public class TestSpotifyApi {
      * for GET operation
      */
     @Test
-    public void test_WhenGetA_Playlist_CoverImage_ShouldReturn_StatusCode200() {
+    public void testGet_APlaylist_CoverImage_ShouldReturn_StatusCode200() {
         Response response = given().contentType(ContentType.JSON)
                                    .accept(ContentType.JSON)
                                    .header("Authorization", token)
@@ -404,10 +404,9 @@ public class TestSpotifyApi {
      * for GET operation
      */
     @Test
-    public void test_WhenGetA_PlaylistItems_ShouldReturn_StatusCode200() {
+    public void testGet_APlaylistItems_ShouldReturn_StatusCode200() {
         Response response = given().queryParam("market", "IN")
-                                   .queryParam("fields",
-                                 "items(added_by.id,track(name,href,album(name,href)))")
+                                   .queryParam("fields", "items(added_by.id,track(name,href,album(name,href)))")
                                    .queryParam("limit", 10)
                                    .queryParam("offset", 5)
                                    .contentType(ContentType.JSON)
